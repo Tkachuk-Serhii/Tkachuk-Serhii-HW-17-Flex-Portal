@@ -1,0 +1,19 @@
+*{
+    font-family: "Roboto" ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.container{
+    max-width: 1284px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+

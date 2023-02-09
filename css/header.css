@@ -1,0 +1,35 @@
+.header,.header__nav,.header__nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo{
+    padding:22px 0 9px ;
+}
+.header__nav-list{
+    margin-right: 100px;
+    list-style: none;
+}
+.header__nav-link a{
+    margin-left: 48px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1B365D;
+}
+.header__nav-link a:hover{
+    text-decoration: underline;
+}
+.header__nav-login a{
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 17px;
+    text-align: center;
+    border: 1px solid #A7BBC9;
+    border-radius: 4px;
+    padding: 6px 24px 5px;
+    color: #1B365D;
+}
+.header__nav-login a:hover{
+    background-color: #A7BBC9;
+    color: #fff;
+}

@@ -1,3 +1,7 @@
+@import url(footer.css);
+@import url(header.css);
+@import url(normalise.css);
+@import url(framework.css);
 .main__banner{
     width:  100%;
     background-image: url("../img/mainbanner.png");
@@ -33,21 +37,24 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
-}
+    }
 .banner__block-link a:hover{
+    background-color: #fff;
+    border-radius: 24px; 
+}
+.link__watch{
     background-color: #fff;
     border-radius: 24px; 
 }
 .banner__block-ad{
     background-color:  #F1C0C7;
-    bottom: -25px;
+    padding: 16px 23px 16px 88px;
     max-width: 499px;
     display: flex;
     align-items: center;
-    position: absolute;
-    padding: 16px 23px 16px 88px;
-    z-index: 1;
-    left: -50px;
+    position: relative;
+    left: -90px;
+    bottom: -25px;
 }
 .block__ad-item{
     margin-right: 16px; 
@@ -142,6 +149,7 @@ text-decoration: underline;
 }
 .applications__img{
     width: 50%;
+    margin-bottom: 114px;
 }
 .applications__block{
     width: 45%;
